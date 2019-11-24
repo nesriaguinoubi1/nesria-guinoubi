@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <table cellpadding="2" cellspacing="2" border="1">
+     
+        @foreach (var p in ViewBag.result)
+
+        {
+            <h2>Bienvennue     </h2>
+
+        <h2>la lsite de vos commentaire  </h2>
+
+               @p.contenu
+
+        }
+</body>
+</html>
+
+
+
+
+
+
